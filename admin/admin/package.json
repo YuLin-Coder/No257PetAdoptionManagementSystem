@@ -1,0 +1,68 @@
+{
+  "name": "mas-creator-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "axios": "^0.19.2",
+    "echarts": "^5.4.1",
+    "echarts-wordcloud": "^2.1.0",
+    "element-ui": "^2.13.0",
+    "js-md5": "^0.7.3",
+    "path-to-regexp": "^6.2.1",
+    "print-js": "^1.5.0",
+    "vue": "^2.6.14",
+    "vue-amap": "^0.5.10",
+    "vue-echarts": "^6.2.3",
+    "vue-json-excel": "^0.3.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.1.5",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-polyfill": "^6.26.0",
+    "compression-webpack-plugin": "^1.1.12",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^6.0.1",
+    "path-to-regexp": "2.4.0",
+    "sass-loader": "10.2.0",
+    "script-loader": "0.7.2",
+    "svg-sprite-loader": "^3.8.0",
+    "svgo": "^2.8.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off",
+      "no-unused-vars": 0,
+      "no-useless-escape": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "Android >= 4.0"
+  ]
+}
